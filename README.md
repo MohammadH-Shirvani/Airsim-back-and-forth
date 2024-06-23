@@ -30,13 +30,19 @@ This repository contains code to move a drone back and forth at multiple altitud
    pip install matplotlib airsim
 
 ## Usage
+1. Preparing the Environment
+   Place the Drone:
+   Open your Unreal Engine project and place the drone at the starting point of the building where you want the path to begin.
+   Play the Environment:
+   Start the environment in Unreal Engine by clicking the "Play" button. Ensure that the AirSim plugin is active and connected.
 1. Run the code:
    Navigate to the src directory and run the path code script:
    ```sh
    cd src
    python path_code.py
 2. Plot the path:
-   Ensure the airsim_rec.txt file is correctly placed in the directory. The airsim_rec.txt file is used to record the drone's path during the simulation. It is expected to be
+   Ensure the airsim_rec.txt file is correctly placed in the directory. The airsim_rec.txt file is used to record the drone's path during the simulation. It
+   is expected to be
    located in the settings directory. This file contains the recorded drone path data required for plotting.
    ```sh
    cd scripts
