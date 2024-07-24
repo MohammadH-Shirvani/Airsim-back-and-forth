@@ -48,3 +48,7 @@ This project is part of a larger effort to perform 3D reconstruction using image
    ```sh
    cd scripts
    python plot_path_xyz.py
+   
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
