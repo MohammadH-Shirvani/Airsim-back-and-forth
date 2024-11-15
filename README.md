@@ -1,13 +1,11 @@
 # AirSim Multirotor Back-and-Forth Movement
 
-This repository contains code to move a drone back and forth at multiple altitudes using the AirSim plugin in Unreal Engine. The drone is flown in the [Downtown West](https://www.unrealengine.com/marketplace/en-US/product/6bb93c7515e148a1a0a0ec263db67d5b) environment, and the path is plotted in XYZ coordinates.
-This project is part of a larger effort to perform 3D reconstruction using images captured by the drone. The back-and-forth flight path is designed to capture a comprehensive set of images that can be used to reconstruct a 3D model of the environment.
+This repository contains code to move a drone back and forth at multiple altitudes using the AirSim plugin in Unreal Engine. The drone is flown in the [Downtown West](https://www.unrealengine.com/marketplace/en-US/product/6bb93c7515e148a1a0a0ec263db67d5b) environment, and the path is plotted in XYZ coordinates.The back-and-forth flight path is designed to capture a comprehensive set of images that can be used to reconstruct a 3D model of the environment.
 
 ## Project Structure
 
 - `src/`: Contains the path code for moving the drone.
   - `path_code.py`: Script to move the drone back and forth at multiple altitudes.
-- `scripts/`: Contains scripts for additional functionalities such as plotting.
   - `plot_path_xyz.py`: Script to plot the drone's path in XYZ coordinates.
 
 ## Requirements
