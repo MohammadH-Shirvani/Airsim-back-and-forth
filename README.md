@@ -2,7 +2,7 @@
 
 This repository contains code that utilizes the AirSim plugin within Unreal Engine to control an aerial robot, enabling it to move back and forth at multiple, overlapping altitudes while capturing coverage snapshots during movement. The multi-rotor operates within the Downtown West environment, following a plotted path in XYZ coordinates. This systematic back-and-forth trajectory ensures sufficient image overlap, enabling the generation of an accurate and detailed 3D reconstruction of the environment.
 
-![Demo Video](Demo.mp4)
+![Demo Video](Demo.gif)
 
 ## Project Structure
 
